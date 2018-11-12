@@ -1,44 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#The Best Food Places in Times Square
+---
+##What is this?
+This is a single page app that uses both the Google Maps API and Fouresquare's Venue API to list all of the places to grab some good grub around the Times Square Area. This project was written in order to fulfill the requirements for Udacity's FEND scholarship.
+---
+##How to run the App
+Make sure you have Node.js installed on your machine before attempting to run this App. Next CD into the directory containing the app. There are a few dependencies:
+1.) npm install
+2.) npm install react-foursquare
+3.) npm install --save react-geocode
+4.) npm install --save escape-string-regexp
+5.) npm install --save react-google-maps
+6.) npm start
+---
+##Outside Sources
+In order to sinish this project I needed to use the FoureSquare API for Places and as well as making an XMLHttpRequest from https://www.w3schools.com/xml/xml_http.asp
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+I have removed the API Key, you will need to insert one into the code in the App.js file on the last line that reads YOUR_API_KEY
+After this run the NPM Start and the App should open in the default browser
+Thank you and enjoy =]
