@@ -5,8 +5,8 @@ import InfoWindow from './InfoWindow';
 import './App.css';
 
 const clientIdAndSecret = require('react-foursquare')({
-  clientID: 'FCCAICWCUTB4TW132QGPWHPW5ZSM5B4XI5VTLCM20Y0FDMCT',
-  clientSecret: 'Q5QOFQZQETMOHWCM14KA40EXMDXZ4ED5RN4M1K2UEV3QTJAV'
+  clientID: 'RLSFCLSBK2V1BODGCUSP25UOL4VNDY3ZD0MW3FS0OR5035BB',
+  clientSecret: 'X23KNYTJ3IMWT1XQCWNNSZQ2AZZGLZ1ZKYEIOX4G5ZHA1PRD'
 });
 
 class App extends Component {

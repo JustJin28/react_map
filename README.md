@@ -13,8 +13,6 @@ Make sure you have Node.js installed on your machine before attempting to run th
 6.) npm start
 ---
 ##Outside Sources
-In order to sinish this project I needed to use the FoureSquare API for Places and as well as making an XMLHttpRequest from https://www.w3schools.com/xml/xml_http.asp
+In order to sinish this project I needed to use the FoureSquare API for Places.
 
-I have removed the API Key, you will need to insert one into the code in the App.js file on the last line that reads YOUR_API_KEY
-After this run the NPM Start and the App should open in the default browser
 Thank you and enjoy =]
