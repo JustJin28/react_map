@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "escape-string-regexp": "^1.0.5",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
+    "react-foursquare": "^1.0.3",
+    "react-geocode": "^0.1.2",
+    "react-google-maps": "^9.4.5",
     "react-scripts": "2.1.1"
   },
   "scripts": {
